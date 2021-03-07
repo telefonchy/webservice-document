@@ -58,7 +58,7 @@
 
 |name|require|type|description
 | ------- | :-------: | :-------: | :------- |
-| `webservice_token` | `yes` | String | you can generate a webservice_token from [customer panel](https://telefonchy.com/my/auth).
+| `webservice-token` | `yes` | String | you can generate a webservice-token from [customer panel](https://telefonchy.com/my/auth).
 
 ### **Example**
 ---
@@ -67,7 +67,7 @@
 ```sh
 # curl shell code
 
-curl -i -H "webservice_token: {YOUR_TOKEN}" https://telefonchy.com/webservice/v1/services
+curl -i -H "webservice-token: {YOUR_TOKEN}" https://telefonchy.com/webservice/v1/services
 ```
 
 ```php
@@ -81,7 +81,7 @@ curl_setopt($ch, CURLOPT_POST, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $headers = [
-    'webservice_token: {YOUR_TOKEN}',
+    'webservice-token: {YOUR_TOKEN}',
 ];
 
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
