@@ -280,6 +280,7 @@ die(1);
                 },
                 "time_wait": "6",
                 "time_talk": "0",
+                "file_id": null,
                 "price_wait": "17",
                 "price_talk": "0",
                 "price_record": "0",
@@ -389,6 +390,8 @@ die(1);
 - `time_wait:` مدت زمان انتظار تماس گیرنده
 
 - `time_talk:` مدت زمان صحبت
+
+- `file_id:` فایل ضبط مکالمه
 
 - `price_wait:` هزینه مدت انتظار
 
